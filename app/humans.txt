@@ -1,0 +1,19 @@
+/* TEAM */
+	Owner: Filipe Seco
+	Website: http://www.chamalusa.pt
+	Facebook: http://www.facebook.com/chamalusa
+	From: Porto, Portugal
+
+	Web designer: Filipe Garcia
+	Website: http://filipe-garcia.com
+	Twitter: @fgarci03
+	From: Porto, Portugal
+
+/* SITE */
+	Created: 22/10/2014
+	Last updated: 03/02/2019
+	Language: Portuguese
+	Standards: HTML5, CSS3, Javascript
+	Doctype: HTML5
+	Components: Bootstrap, JQuery, Font-Awesome
+	IDE: Atom, CodeAnywhere.com, Webstorm

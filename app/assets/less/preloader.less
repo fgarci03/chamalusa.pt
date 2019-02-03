@@ -1,0 +1,50 @@
+#preloader {
+  background: @default-background-color;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+@keyframes shadowSpin {
+  0% {
+    box-shadow: 10px -10px @primary-color, -10px 10px @primary-color;
+  }
+
+  25% {
+    box-shadow: 10px 10px @primary-color, -10px -10px @primary-color;
+  }
+
+  50% {
+    box-shadow: -10px 10px @primary-color, 10px -10px @primary-color;
+  }
+
+  75% {
+    box-shadow: -10px -10px @primary-color, 10px 10px @primary-color;
+  }
+
+  100% {
+    box-shadow: 10px -10px @primary-color, -10px 10px @primary-color;
+  }
+}
+
+#load {
+  z-index: 9999;
+  background-color: @secondary-color;
+  opacity: 0.75;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: 50%;
+  margin: -5px auto 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 0;
+  border: 5px solid @secondary-color;
+  box-shadow: 10px 0 @primary-color, 10px 0 @primary-color;
+  animation: shadowSpin 1s ease-in-out infinite;
+}
